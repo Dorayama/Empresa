@@ -157,9 +157,11 @@ public class CriarProjeto extends javax.swing.JFrame {
         String[] nomeProjeto = new String[10];
         String[] data = new String[10];
         String[] prazo = new String[10];
+       
         nomeProjeto[0] = jTextField2.getText();
         data[0] = jTextField1.getText();
         prazo[0] = jTextField3.getText();
+        
         System.out.println(nomeProjeto[0] + data[0] + prazo[0]);
     }//GEN-LAST:event_jButton1ActionPerformed
 

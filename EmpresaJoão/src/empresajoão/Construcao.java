@@ -3,13 +3,14 @@ package empresajoão;
 public class Construcao {
     public String nome;
     //private ArrayList<String> erros = new ArrayList();
-    private String datasInicioFim[] = new String[1];
+    private String dataInicio;
+    private String prazoFim;
     private int tipo;
 
     public Construcao(String nomeProjeto, String dataCriacao, String prazoConclusao, int tipoProjeto) {
         this.nome = nomeProjeto;
-        this.datasInicioFim[0] = dataCriacao;
-        this.datasInicioFim[1] = prazoConclusao;
+        this.dataInicio = dataCriacao;
+        this.prazoFim = prazoConclusao;
         this.tipo = tipoProjeto;
     }
     
